@@ -46,4 +46,10 @@ figcaption {
   color: #555;
   text-align: center;
 }
+img {
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s;
+}
 </style>

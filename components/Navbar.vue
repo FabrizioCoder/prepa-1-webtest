@@ -13,7 +13,7 @@
       <img
         src="/public/logo_uady.svg"
         alt="Logo UADY"
-        class="w-auto h-20 sm:h-24"
+        class="sm:w-auto sm:h-24 h-20 w-max"
       />
     </div>
 
@@ -21,7 +21,7 @@
     <div class="flex-1">
       <h1
         class="text-[22px] sm:text-[35px] mb-2 font-bold text-center"
-        :class="isMobile ? 'text-[20px]' : ''"
+        :class="isMobile ? 'text-[18px]' : ''"
       >
         Escuela Preparatoria Uno
       </h1>
@@ -29,7 +29,7 @@
       <!-- Menú de navegación -->
       <button
         @click="toggleMenu"
-        class="block sm:hidden text-black focus:outline-none mx-auto mb-2"
+        class="block sm:hidden text-black focus:outline-none ml-auto mb-2"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@
       <ul
         id="li-links-nav"
         :class="menuOpen ? 'block' : 'hidden'"
-        class="list-none sm:flex sm:gap-5 p-0 justify-center text-center"
+        class="list-none sm:flex sm:gap-5 p-0 justify-center text-right"
       >
         <li>
           <a

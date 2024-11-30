@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="bg-white h-screen border-r border-gray-300 text-sm transition-transform transform sm:translate-x-0"
+    class="bg-white h-screen border-r border-gray-300 text-sm transition-transform transform sm:translate-x-0 absolute sm:relative sm:z-40 sm:w-64 sm:block ease-in-out duration-300"
     :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full'"
   >
     <!-- Sidebar content -->

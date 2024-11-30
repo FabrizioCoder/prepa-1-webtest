@@ -1,13 +1,13 @@
 <template>
   <aside
-    class="bg-white h-screen border-r border-gray-300 text-sm transition-transform transform sm:translate-x-0 absolute sm:relative sm:z-40 sm:w-64 sm:block ease-in-out duration-300"
+    class="bg-white h-screen border-r border-gray-300 text-sm transition-transform transform sm:translate-x-0 absolute sm:relative sm:z-40 sm:w-64 sm:block ease-in-out duration-300 max-h-max"
     :class="sidebarOpen ? 'translate-x-0' : '-translate-x-full'"
   >
     <!-- Sidebar content -->
     <nav class="p-4 space-y-4">
       <!-- Elementos de navegación -->
       <div>
-        <SidebarItem title="Inicio" link="#" />
+        <SidebarItem title="Inicio" link="/" />
       </div>
       <div>
         <SidebarDropdown title="Plan de estudios">
@@ -114,17 +114,14 @@
       <!-- Menú desplegable: Calificaciones -->
       <div>
         <SidebarDropdown title="Calificaciones">
-          <SidebarSubItem
-            title="Alumnos"
-            link="https://www.prepa1.uady.mx/alumnos/login.php"
-          />
+          <SidebarSubItem title="Alumnos" link="/login/students" />
           <SidebarSubItem
             title="Maestros"
-            link="https://www.prepa1.uady.mx/maestros/log_inet.php"
+            link="/login/admin"
           />
           <SidebarSubItem
             title="Administrativos"
-            link="https://www.prepa1.uady.mx/maestros/log_inet.php"
+            link="/login/admin"
           />
         </SidebarDropdown>
       </div>

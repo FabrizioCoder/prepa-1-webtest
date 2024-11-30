@@ -6,8 +6,17 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Preparatoria Uno',
-      // web icon
       link: [{ rel: 'icon', href: '/uady.ico' }],
+      meta: [
+        { name: 'description', content: 'Preparatoria Uno' },
+        { charset: 'utf-8' },
+        { name: 'author', content: 'Preparatoria Uno, UADY' },
+        {
+          name: 'keywords',
+          content:
+            'Preparatoria Uno, UADY, Preparatoria, Universidad, Yucatán, Mérida, Bachillerato, Prepa, Preparatoria Uno UADY, Preparatoria Uno Mérida, Preparatoria Uno Yucatán, Preparatoria Uno Bachillerato, Preparatoria Uno Prepa, Preparatoria Uno Universidad',
+        },
+      ],
     },
   },
 });

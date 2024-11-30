@@ -235,7 +235,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'MainContent',
+  components: {
+    ResourceItem: () => import('./ResourceItem.vue'),
+  },
+};
 </script>
 
 <style scoped>

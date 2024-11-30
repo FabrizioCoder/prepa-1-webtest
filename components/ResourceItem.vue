@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: 'ResourceItem',
   props: {
     title: {
       type: String,

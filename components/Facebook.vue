@@ -18,6 +18,7 @@
 
 <script>
 export default {
+  name: 'Facebook',
   data() {
     return {
       isMobile: false,

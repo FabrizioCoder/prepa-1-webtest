@@ -11,6 +11,7 @@
 
 <script>
 export default {
+  name: "SidebarSubItem",
   props: {
     title: {
       type: String,

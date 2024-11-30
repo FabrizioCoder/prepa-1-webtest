@@ -191,6 +191,7 @@ import SidebarDropdown from './Sidebars/SidebarDropdown.vue';
 import SidebarSubItem from './Sidebars/SidebarSubItem.vue';
 
 export default {
+  name: 'Sidebar',
   components: {
     SidebarItem,
     SidebarDropdown,

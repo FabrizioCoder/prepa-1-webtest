@@ -27,6 +27,7 @@
 
 <script>
 export default {
+  name: 'SidebarDropdown',
   props: {
     title: {
       type: String,

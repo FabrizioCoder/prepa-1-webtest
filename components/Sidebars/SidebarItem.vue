@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: "SidebarItem",
   props: {
     title: {
       type: String,
